@@ -1,0 +1,41 @@
+# Path: main
+# Arch: x86_64
+# Object files:
+[  0] linker synthesized
+[  1] /var/folders/1g/86gwn5hj00lgx_mp0t0v82600000gn/T/main-0935e9.o
+[  2] /usr/lib/libSystem.dylib
+# Sections:
+# Address	Size    	Segment	Section
+0x100000608	0x00008914	__TEXT	__text
+0x100008F1C	0x00000012	__TEXT	__stubs
+0x100008F30	0x0000002E	__TEXT	__stub_helper
+0x100008F60	0x00000033	__TEXT	__cstring
+0x100008F93	0x00000050	__TEXT	__unwind_info
+0x100008FE8	0x00000018	__TEXT	__eh_frame
+0x100009000	0x00000010	__DATA	__nl_symbol_ptr
+0x100009010	0x00000018	__DATA	__la_symbol_ptr
+# Symbols:
+# Address	Size    	File  Name
+0x100000608	0x000022F4	[  1] _uppercase
+0x1000028FC	0x00002134	[  1] _lowercase
+0x100004A30	0x000044EC	[  1] _main
+0x100008F1C	0x00000006	[  2] _atoi
+0x100008F22	0x00000006	[  2] _printf
+0x100008F28	0x00000006	[  2] _puts
+0x100008F30	0x00000010	[  0] helper helper
+0x100008F40	0x0000000A	[  2] _atoi
+0x100008F4A	0x0000000A	[  2] _printf
+0x100008F54	0x0000000A	[  2] _puts
+0x100008F60	0x0000000B	[  1] literal string: upper: %d
+
+0x100008F6B	0x0000000B	[  1] literal string: lower: %d
+
+0x100008F78	0x00000001	[  1] literal string: 
+0x100008F80	0x00000013	[  1] literal string: Usage: main number
+0x100008F93	0x00000050	[  0] compact unwind info
+0x100008FE8	0x00000018	[  1] CIE
+0x100009000	0x00000008	[  0] non-lazy-pointer-to-local: dyld_stub_binder
+0x100009008	0x00000008	[  0] non-lazy-pointer
+0x100009010	0x00000008	[  2] _atoi
+0x100009018	0x00000008	[  2] _printf
+0x100009020	0x00000008	[  2] _puts
